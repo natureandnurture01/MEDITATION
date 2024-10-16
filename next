@@ -1,0 +1,4 @@
+#!/bin/bash
+#sudo chmod 777 check_radar
+cd /home/dadn/Desktop/meditation_gui
+find . -name seek.avi -delete

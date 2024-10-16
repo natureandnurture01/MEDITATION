@@ -1,0 +1,6 @@
+#!/bin/bash
+#sudo chmod 777 check_radar
+cd /home/dadn/Desktop/meditation_gui/video_capture
+python3 cal_score.py 
+wait 
+feh score.png

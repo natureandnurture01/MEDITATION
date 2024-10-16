@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Navigate to the directory where the scripts are located
+cd /home/dadn/Desktop/meditation_gui/video_capture
+
+# Run visual1capture.py in the background
+python3 Radar_Analysis.py &
+
+wait
+
+python3 Radar_Animation.py 
+
